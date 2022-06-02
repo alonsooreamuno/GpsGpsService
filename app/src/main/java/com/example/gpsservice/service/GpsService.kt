@@ -16,7 +16,6 @@ class GpsService : IntentService("GpsService") {
     }
 
     override fun onHandleIntent(intent: Intent?) {
-        //Inicializacion del database
         this.getLocation()
     }
 
